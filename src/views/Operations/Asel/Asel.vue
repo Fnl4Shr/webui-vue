@@ -26,7 +26,7 @@ import BVToastMixin from '@/components/Mixins/BVToastMixin';
 import LoadingBarMixin from '@/components/Mixins/LoadingBarMixin';
 
 export default {
-  name: 'RunAselScript',
+  name: 'Asel',
   components: { PageTitle, PageSection },
   mixins: [BVToastMixin, LoadingBarMixin],
   methods: {

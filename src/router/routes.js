@@ -20,6 +20,7 @@ import PostCodeLogs from '@/views/Logs/PostCodeLogs';
 import PowerRestorePolicy from '@/views/Settings/PowerRestorePolicy';
 import ProfileSettings from '@/views/ProfileSettings';
 import RebootBmc from '@/views/Operations/RebootBmc';
+import Asel from '@/views/Operations/Asel';
 import Policies from '@/views/SecurityAndAccess/Policies';
 import KeyClear from '@/views/Operations/KeyClear';
 import Sensors from '@/views/HardwareStatus/Sensors';
@@ -261,6 +262,14 @@ const routes = [
         component: RebootBmc,
         meta: {
           title: i18n.t('appPageTitle.rebootBmc'),
+        },
+      },
+      {
+        path: '/operations/asel',
+        name: 'asel',
+        component: Asel,
+        meta: {
+          title: i18n.t('appPageTitle.asel'),
         },
       },
       {
