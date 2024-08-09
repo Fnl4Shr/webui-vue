@@ -82,6 +82,12 @@ const ControlStore = {
           throw new Error(i18n.t('pageRebootBmc.toast.errorRebootStart'));
         });
     },
+    async runAselScript() {
+      return await api
+        .get('/redfish/v1/Managers/bmc/Actions/Manager.Asel')
+        .then(() => i18n.t('pageAsel.toast.success'))
+        .catch(() => i18n.t('pageAsel.toast.error'));
+    },
     async serverPowerOn({ dispatch, commit }) {
       const data = { ResetType: 'On' };
       dispatch('serverPowerChange', data);

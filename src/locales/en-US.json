@@ -782,6 +782,14 @@
             "successRebootStart": "Rebooting BMC."
         }
     },
+    "pageAsel": {
+        "runScript": "Run Script",
+        "pageInformation": "Click button to run GPIO script.",
+        "toast": {
+            "error": "Error running script.",
+            "success": "Running script."
+        }
+    },
     "pagePolicies": {
         "ipmi": "Network IPMI (out-of-band IPMI)",
         "ipmiDescription": "Allow remote management of the platform via IPMI. Tools such as ipmitool require this setting to be enabled.",
