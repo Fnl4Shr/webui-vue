@@ -1,2 +1,2 @@
-import Asel from './Asel.vue';
-export default Asel;
+import RunAselScript from './Asel.vue';
+export default RunAselScript;
