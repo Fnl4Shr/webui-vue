@@ -102,6 +102,7 @@
         "titleRefresh": "Refresh application data"
     },
     "appNavigation": {
+        "asel": "@:appPageTitle.asel",
         "resourceManagement": "Resource management",
         "securityAndAccess": "Security and access",
         "sessions": "@:appPageTitle.sessions",
@@ -135,7 +136,7 @@
         "keyClear": "@:appPageTitle.keyClear"
     },
     "appPageTitle": {
-        "asel": "Run Asel Script",
+        "asel": "Aselsan",
         "changePassword": "Change password",
         "power": "Power",
         "sessions": "Sessions",

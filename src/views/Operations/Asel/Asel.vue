@@ -4,7 +4,7 @@
     <b-row>
       <b-col md="8" lg="8" xl="6">
         <page-section>
-          {{ $t('pageAsel.information') }}
+          {{ $t('pageAsel.pageInformation') }}
           <b-button
             variant="primary"
             class="d-block mt-5"
